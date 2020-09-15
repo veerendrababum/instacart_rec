@@ -2,14 +2,16 @@
 
 ## Define the Problem
 
-## Project Goal: The goal of this project is to examine the dataset of Instacart online grocery shopping orders and use this data to build and test models for predicting products that a user will buy again.
+## Project Goal: 
+The goal of this project is to examine the dataset of Instacart online grocery shopping orders and use this data to build and test models for predicting products that a user will buy again.
 
-## Practical use: Instacart currently several machine learning models in production on similar data to sort items for users to “buy again” and to recommend items for users while they shop.
+## Practical use: 
+Instacart currently several machine learning models in production on similar data to sort items for users to “buy again” and to recommend items for users while they shop.
 
-## Tool: Python 3 (Jupyter Notebook) with a wide range of libraries/packages available for data manipulation and predictive modeling algorithms.
+## Tool: 
+Python 3 (Jupyter Notebook) with a wide range of libraries/packages available for data manipulation and predictive modeling algorithms.
 
 # Data
-
 The dataset was downloaded from S3 at: https://www.instacart.com/datasets/grocery-shopping-2017. This anonymized dataset contains a sample of over 3 million grocery orders from more than 200,000 Instacart users.
 
 For each user, 4 and 100 of their orders are given, with the sequence of products purchased in each order.
@@ -37,13 +39,13 @@ It has the department id and name of the department.
 2.	Load Data
 3.	Examine and Get Insights on Data
 4.	Clean data
-      o	No duplicates in data
-      o	Datasets do not have null values
+      * No duplicates in data
+      * Datasets do not have null values
 5.	Explore data analysis
 6.	Feature Engineering
-      o	Created new features of users using user_id
-      o	Created new features of products using product_id
-      o	Created the features related to user and product
+      * Created new features of users using user_id
+      * Created new features of products using product_id
+      * Created the features related to user and product
 
 # Model Development and Testing:
 1.	Build the XGBoost model(From the Instacart blog post, it is seen that they are using XGBoost as one of their models in production)
