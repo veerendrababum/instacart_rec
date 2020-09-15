@@ -18,11 +18,15 @@ For each user, 4 and 100 of their orders are given, with the sequence of product
 
 #### Orders.csv: 
 It has all order details such as order_id, order_num, user_id(order by the user), and other order details. 
+<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/order_df.PNG" width="350" height = "225">
 
 #### products.csv: 
 It has all product-related information such as product_id, product_name, aisle_id, department_id.
+<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/product_df.PNG" width="350" height = "225">
 
 #### order_products__prior.csv & order_products__train.csv: 
+<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/order_products_prior_df.PNG" width="350" height = "225">
+<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/order_products_train_df.PNG" width="350" height = "225">
 
 Both CSV files have the same information such as product_id's associated to each order, add_to_card_order, and also the reordered information of the product. Then what is the difference between these files.?
 
@@ -30,19 +34,18 @@ As mentioned earlier, in this dataset, 4 to 100 orders of a customer are given a
 
 #### Aisles.csv: 
 It has the asile id and name of the asile 
+<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/aisle_df.PNG" width="350" height = "225">
 
 #### Department.csv: 
 It has the department id and name of the department. 
+<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/dep_df.PNG" width="350" height = "225">
 
 # Data Discovery
 1.	Import Libraries and set up a directory where python interpreter access code files
 2.	Load Data
 3.	Examine and Get Insights on Data
-4.	Clean data
-      * No duplicates in data
-      * Datasets do not have null values
-5.	Explore data analysis
-6.	Feature Engineering
+4.	Explore data analysis
+5.	Feature Engineering
       * Created new features of users using user_id
       * Created new features of products using product_id
       * Created the features related to user and product
