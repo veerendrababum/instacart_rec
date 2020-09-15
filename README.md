@@ -2,7 +2,7 @@
 
 ## Define the Problem
 
-## Project Goal: 
+#### Project Goal: 
 The goal of this project is to examine the dataset of Instacart online grocery shopping orders and use this data to build and test models for predicting products that a user will buy again.
 
 ## Practical use: 
