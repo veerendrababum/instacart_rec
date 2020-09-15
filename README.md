@@ -33,11 +33,13 @@ Both CSV files have the same information such as product_id's associated to each
 As mentioned earlier, in this dataset, 4 to 100 orders of a customer are given and we need to predict the products that will be re-ordered. So the last order of the user has been taken out and divided into train and test sets. All the prior order information of the customers are present in order_products_prior file. We can also note that there is a column in orders.csv file called eval_set which tells us as to which of the three datasets (prior, train or test) the given row goes to.
 
 #### Aisles.csv: 
-It has the asile id and name of the asile 
+It has the asile id and name of the asile.
+
 <img src="https://github.com/veerendrababum/instacart_rec/blob/master/images/aisle_df.PNG" width="350" height = "225">
 
 #### Department.csv: 
 It has the department id and name of the department. 
+
 <img src="https://github.com/veerendrababum/instacart_rec/blob/master/images/dep_df.PNG" width="350" height = "210">
 
 # Data Discovery
