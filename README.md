@@ -1,4 +1,4 @@
-# Instacart-Products Buy Again Prediction
+# Instacart-Products Reorder Prediction and Recommendation
 
 ## Define the Problem
 
