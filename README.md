@@ -18,7 +18,7 @@ For each user, 4 and 100 of their orders are given, with the sequence of product
 
 #### Orders.csv: 
 It has all order details such as order_id, order_num, user_id(order by the user), and other order details. 
-<img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/order_df.PNG" width="350" height = "225">
+<img src="https://github.com/veerendrababum/instacart_rec/blob/master/images/order_df.PNG" width="350" height = "225">
 
 #### products.csv: 
 It has all product-related information such as product_id, product_name, aisle_id, department_id.
@@ -34,6 +34,7 @@ As mentioned earlier, in this dataset, 4 to 100 orders of a customer are given a
 
 #### Aisles.csv: 
 It has the asile id and name of the asile 
+
 <img src="https://github.com/veerendrababum/instacart_rec/tree/master/images/aisle_df.PNG" width="350" height = "225">
 
 #### Department.csv: 
