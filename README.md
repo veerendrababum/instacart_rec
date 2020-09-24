@@ -6,7 +6,7 @@
 The goal of this project is to examine the dataset of Instacart online grocery shopping orders and use this data to build and test models for predicting products that a user will buy again.
 
 #### Practical use: 
-Instacart currently several machine learning models in production on similar data to sort items for users to “buy again” and to recommend items for users while they shop.
+Instacart is currently using several machine learning models in production on similar data to sort items for users to “buy again” and to recommend items for users while they shop.
 
 #### Tool: 
 Python 3 (Jupyter Notebook) with a wide range of libraries/packages available for data manipulation and predictive modeling algorithms.
